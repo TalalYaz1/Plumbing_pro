@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Bathroom.css" />
+    <title>Bathroom</title>
+  </head>
+  <body>
+    <div class="section-wrapper">
+      <div class="container">
+        <h1>Bathroom Services</h1>
+        <hr />
+
+        <h2>Bathroom Renovations & Refurbishments</h2>
+        <p>
+          From en-suite updates to full bathroom makeovers,
+          <strong>Plumbing Pro</strong> delivers stylish, high-quality results
+          from design to finish.
+        </p>
+        <p>Expect smart layouts, flawless finishes, and stress-free service.</p>
+
+        <h2>Bathroom Suite, Shower & Wetroom Installations</h2>
+        <p>
+          Need a new bath, basin, or power shower? Our expert team installs full
+          suites, individual units, and modern wetrooms to the highest
+          standards.
+        </p>
+        <p>We focus on durability, efficiency, and clean design.</p>
+
+        <h2>Custom Bathroom Design & Planning</h2>
+        <p>
+          We turn your ideas into functional, beautiful spaces. Our designers
+          plan smart layouts tailored to your needs and budget.
+        </p>
+        <p>Expert installation ensures a smooth and timely build.</p>
+
+        <h2>Wetroom Experts</h2>
+        <p>
+          Sleek, modern, and accessible—our wetrooms are fully waterproofed and
+          expertly finished by London’s trusted wetroom specialists.
+        </p>
+        <p>Built to last, with perfect drainage and detail.</p>
+
+        <h2>Request a Bathroom Consultation</h2>
+        <p>
+          From minor upgrades to full renovations,
+          <strong>Plumbing Pro</strong> is ready to help. Fill in the form below
+          to book your consultation.
+        </p>
+      </div>
+      <form id="contactForm" enctype="multipart/form-data">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+        </div>
+
+        <label for="help">How Can We Help You?</label>
+        <input
+          type="text"
+          id="help"
+          name="help"
+          required
+          placeholder="e.g., My home doesn’t have any heating" />
+
+        <label for="description"
+          >Please describe the issue you are having</label
+        >
+        <textarea
+          id="description"
+          name="description"
+          rows="4"
+          required></textarea>
+
+        <label for="tradesman">Select your required tradesman</label>
+        <select id="tradesman" name="tradesman" required>
+          <option value="">-- Please choose --</option>
+          <option value="Gas/Heating Engineer">Gas/Heating Engineer</option>
+          <option value="Electrician">Electrician</option>
+          <option value="Plumber">Plumber</option>
+          <option value="Handyman">Handyman</option>
+        </select>
+
+        <label for="preferredDate">Your Preferred Date</label>
+        <input type="date" id="preferredDate" name="preferredDate" required />
+
+        <label for="preferredTime">Your Preferred Time</label>
+        <input type="time" id="preferredTime" name="preferredTime" required />
+
+        <label for="notes"
+          >Anything else we need to know? Parking? Call etc.</label
+        >
+        <textarea id="notes" name="notes" rows="3"></textarea>
+
+        <label for="photo" class="custom-file-upload">
+          Have a photo of your problem? Please upload below</label
+        >
+        <input type="file" id="photo" name="photo" accept="image/*" />
+
+        <button type="submit" style="margin-top: 1rem">Submit</button>
+      </form>
+    </div>
+
+    <section class="contact-us">
+      <div class="right-cell">
+        <h1>Transform your space</h1>
+        <hr />
+        <p>
+          We are London’s experts in wetroom design, waterproofing, drainage
+          solutions, and installation, creating accessible and contemporary
+          showering spaces built to last.
+        </p>
+      </div>
+      <div class="left-cell">
+        <h1>Call us now</h1>
+      </div>
+    </section>
+  </body>
+</html>

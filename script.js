@@ -83,3 +83,15 @@ setInterval(() => {
     reviewBox.classList.add("visible");
   }, 500); // match CSS transition duration
 }, 10000);
+
+document.querySelectorAll(".accordion .item").forEach((item) => {
+  item.addEventListener("click", () => {
+    const openItem = document.querySelector(".accordion .item.open");
+
+    if (openItem && openItem !== item) {
+      openItem.classList.remove("open");
+    }
+
+    item.classList.toggle("open");
+  });
+});
