@@ -1,0 +1,63 @@
+.hero-left-cell p {
+  margin-bottom: 1rem;
+}
+
+.pricing-section {
+  margin-top: 10rem;
+
+  padding: 2rem;
+  text-align: center;
+}
+
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.pricing-card {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pricing-card h2 {
+  text-align: left;
+  color: #4b6b6a;
+}
+li {
+  margin-bottom: 0.5rem; /* adjust as needed */
+}
+.price-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.weekday,
+.weekend {
+  flex: 1 1 45%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .price-columns {
+    flex-direction: column;
+  }
+
+  .weekday,
+  .weekend {
+    flex: 1 1 100%;
+  }
+}

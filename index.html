@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Adjust CSS path relative to pages/index.html -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Plumbing Pro</title>
   </head>
   <body>
@@ -20,24 +21,24 @@
         <!-- Desktop Menu -->
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="#home" class="navbar__links">Plumbing</a>
+            <a href="./pages/plumbing.html" class="navbar__links">Plumbing</a>
           </li>
           <li class="navbar__item">
-            <a href="#collection" class="navbar__links">Heating</a>
+            <a href="./pages/heating.html" class="navbar__links">Heating</a>
           </li>
           <li class="navbar__item">
-            <a href="./NavBar/drainage.html" class="navbar__links">Drainage</a>
+            <a href="./pages/drainage.html" class="navbar__links">Drainage</a>
           </li>
-          <img src="Photos/Logo.png" class="sc-logo" alt="websitelogo" />
+          <img src="../Photos/Logo.png" class="sc-logo" alt="websitelogo" />
 
           <li class="navbar__item">
-            <a href="./NavBar/Bathroom.html" class="navbar__links">Bathrooms</a>
+            <a href="./pages/Bathroom.html" class="navbar__links">Bathrooms</a>
           </li>
           <li class="navbar__item">
-            <a href="#ourFilms" class="navbar__links">Gas Safety</a>
+            <a href="./pages/gas-safety" class="navbar__links">Gas Safety</a>
           </li>
           <li class="navbar__item">
-            <a href="#ourFilms" class="navbar__links">Rates</a>
+            <a href="./pages/rates.html" class="navbar__links">Rates</a>
           </li>
         </ul>
       </div>
@@ -45,24 +46,28 @@
     <div class="off-screen">
       <ul class="navbar__menu">
         <li class="navbar__item">
-          <a href="#home" class="navbar__links">HOME</a>
+          <a href="./pages/plumbing.html" class="navbar__links">Plumbing</a>
         </li>
         <li class="navbar__item">
-          <a href="#about" class="navbar__links">US</a>
+          <a href="./pages/heating.html" class="navbar__links">Heating</a>
         </li>
         <li class="navbar__item">
-          <a href="./NavBar/drainage.html" class="navbar__links">Drainage</a>
+          <a href="./pages/drainage.html" class="navbar__links">Drainage</a>
+        </li>
+
+        <li class="navbar__item">
+          <a href="./pages/Bathroom.html" class="navbar__links">Bathrooms</a>
         </li>
         <li class="navbar__item">
-          <a href="#ourGames" class="navbar__links">OUR-GAMES</a>
+          <a href="./pages/gas-safety" class="navbar__links">Gas Safety</a>
         </li>
         <li class="navbar__item">
-          <a href="#ourFilms" class="navbar__links">OUR-FILMS</a>
+          <a href="./pages/rates.html" class="navbar__links">Rates</a>
         </li>
       </ul>
     </div>
     <section class="hero">
-      <img src="Photos/Hero 1.png" />
+      <img src="../Photos/Hero 1.png" alt="Hero Image" />
 
       <!-- Wrap cta + reviews together -->
       <div class="hero-content">
@@ -78,8 +83,8 @@
               hassle-free.
             </p>
           </div>
-          <a href="tel:+447465989610">
-            <button class="catalogue">Call Us</button>
+          <a href="tel:+4403330508127">
+            <button class="catalogue">0333 050 8127</button>
           </a>
         </div>
 
@@ -88,37 +93,75 @@
         </div>
       </div>
     </section>
+
+    <section class="hero-mobile">
+      <img
+        src="../Photos/Hero 1.png"
+        class="mobile-hero-img"
+        alt="Mobile Hero" />
+
+      <div class="hero-mobile-content">
+        <div class="cta-mobile">
+          <h2>Keeping London’s Homes Running Smoothly, Day and Night</h2>
+          <h1>
+            Professional Heating, Plumbing & Drainage Services Across London
+          </h1>
+          <p>
+            From faulty boilers to dripping taps, our expert team is on standby
+            24/7 to get your home back in working order—fast and hassle-free.
+          </p>
+          <a href="tel:+4403330508127">
+            <button class="catalogue">0333 050 8127</button>
+          </a>
+
+          <!-- ✅ Moved inside the CTA box -->
+          <div class="reviews-container-mobile" id="review-box-mobile">
+            <!-- JS injects review content here -->
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="services">
       <h2>OUR SERVICES</h2>
-      <h1>Londons go-to...</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,</p>
+      <h1>London’s Go-To Plumbing & Heating Professionals</h1>
       <p>
-        enim vero vel, maiores officia aspernatur odio ipsum qui quo eveniet
-        laborum,
+        From plumbing and electrical work to heating and gas, we offer a wide
+        range of services.
       </p>
       <p>
-        sequi repellendus corporis fugiat necessitatibus voluptatem quas placeat
-        doloribus.
+        <a href="../contact.html">Contact our team</a> today and one of our
+        experienced London based engineers will have you up and running in no
+        time!
+      </p>
+      <p>
+        Don’t worry, if it’s an emergency we can get an engineer to you as quick
+        as an hour! (Subject to availability)
       </p>
       <div class="desc">
         <section class="container">
           <div class="services">
             <div class="boil-contain">
-              <img src="Photos/Hero 1.png" alt="" />
+              <img
+                src="./Photos/Boiler-Stock.png"
+                alt="Boilers & Central Heating" />
               <div class="boil-text">
-                <h1>Bla bla bla</h1>
+                <h1>Boilers & Central Heating</h1>
                 <h2>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Smell Gas? Broken Boiler? No heating or hot water? Or just a
+                  routine check?
                 </h2>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Libero cumque assumenda quisquam rerum fugit. Iure ab
-                  assumenda inventore exercitationem veritatis, eius, quod
-                  dolorem, tempora maiores corporis nesciunt provident
-                  accusantium tempore.
+                  We have Gas Safe Registered engineers available 24/7. From a
+                  regular routine service, a boiler installation or an emergency
+                  breakdown repair our engineers are fully equipped to deal with
+                  any problem quickly and efficiently.
                 </p>
                 <div class="boil-btn">
-                  <button>Boiler Service</button>
+                  <button>
+                    <a class="btnlink" href="./pages/heating.html"
+                      >Boiler Service</a
+                    >
+                  </button>
                   <button>Emergency Plumbing</button>
                 </div>
               </div>
@@ -129,44 +172,50 @@
           <div class="services">
             <div class="plum-contain">
               <div class="plum-text">
-                <h1>Bla bla bla</h1>
+                <h1>Plumbing & Repairs</h1>
                 <h2>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Leaky taps, burst pipes, or unexpected plumbing issues? We’ve
+                  got you covered!
                 </h2>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Libero cumque assumenda quisquam rerum fugit. Iure ab
-                  assumenda inventore exercitationem veritatis, eius, quod
-                  dolorem, tempora maiores corporis nesciunt provident
-                  accusantium tempore.
+                  Our team of skilled plumbers are committed to responding
+                  quickly and delivering a quality service! We always have a
+                  solution for an emergency or a routine fix!
                 </p>
                 <div class="plum-btn">
-                  <button>Plumbing Service</button>
+                  <button>
+                    <a class="btnlink" href="./pages/plumbing.html"
+                      >Plumbing Service</a
+                    >
+                  </button>
                   <button>Emergency Plumbing</button>
                 </div>
               </div>
-              <img src="Photos/Hero 1.png" alt="" />
+              <img src="./Photos/Pipe-Stock.png" alt="Plumbing & Repairs" />
             </div>
           </div>
         </section>
         <section class="container">
           <div class="services">
             <div class="drain-contain">
-              <img src="Photos/Hero 1.png" alt="" />
+              <img src="./Photos/Drain-Stock.png" alt="Drainage Solutions" />
               <div class="drain-text">
-                <h1>Bla bla bla</h1>
+                <h1>Drainage Solutions</h1>
                 <h2>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Got a blockage or drainage issue? Don’t panic, Plumus have you
+                  covered!
                 </h2>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Libero cumque assumenda quisquam rerum fugit. Iure ab
-                  assumenda inventore exercitationem veritatis, eius, quod
-                  dolorem, tempora maiores corporis nesciunt provident
-                  accusantium tempore.
+                  Our London based drainage engineers are fully equipped to keep
+                  your drains free flowing. From high pressure jetting or a
+                  routine CCTV drain inspection. We’re there when you need us!
                 </p>
                 <div class="drain-btn">
-                  <button>Boiler Service</button>
+                  <button>
+                    <a class="btnlink" href="./pages/drainage.html"
+                      >Drainage Service</a
+                    >
+                  </button>
                   <button>Emergency Plumbing</button>
                 </div>
               </div>
@@ -225,9 +274,28 @@
       </div>
     </section>
 
+    <section class="london">
+      <h1>We're everywhere, Always</h1>
+      <hr />
+      <div class="map">
+        <img src="../Photos/London.png" alt="London map" />
+        <p>
+          No matter where you are in London, our highly-skilled heating
+          engineers are ready to respond to any request. With Plumus, you can
+          trust that your heating requirements will be handled with the utmost
+          care and professionalism.
+        </p>
+      </div>
+      <div class="pics">
+        <img src="../Photos/Hero 1.png" alt="" />
+        <img src="../Photos/Hero 1.png" alt="" />
+        <img src="../Photos/Hero 1.png" alt="" />
+      </div>
+    </section>
+
     <!-- Faq -->
 
-    <section class="faq">
+    <section id="faq" class="faq">
       <div class="accordion">
         <div class="item">
           <p class="number">01</p>
@@ -372,12 +440,12 @@
           <h2>Services</h2>
           <hr />
           <ul>
-            <li><a href="./Bathroom.html">Bathroom</a></li>
-            <li><a href="./Kitchen.html">Kitchen</a></li>
-            <li><a href="./Drainage.html">Drainage</a></li>
-            <li><a href="./Heating.html">Heating</a></li>
-            <li><a href="./Emergency.html">Emergency</a></li>
-            <li><a href="./Maintenance.html">Maintenance</a></li>
+            <li><a href="./pages/bathroom.html">Bathroom</a></li>
+            <li><a href="./pages/drainage.html">Drainage</a></li>
+            <li><a href="./pages/heating.html">Heating</a></li>
+            <li><a href="./pages/rates.html">Rates</a></li>
+            <li><a href="./pages/plumbing.html">Heating</a></li>
+            <li><a href="./pages/gas-safety.html">Gas Safety</a></li>
           </ul>
         </div>
 
@@ -385,11 +453,8 @@
           <h2>Quick Links</h2>
           <hr />
           <ul>
-            <li><a href="./Contact.html">Contact</a></li>
-            <li><a href="./About.html">About Us</a></li>
-            <li><a href="./Pricing.html">Pricing</a></li>
-            <li><a href="./Reviews.html">Reviews</a></li>
-            <li><a href="./FAQ.html">FAQ</a></li>
+            <li><a href="#reviews-box">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </ul>
         </div>
       </div>
@@ -418,5 +483,5 @@
       </div>
     </footer>
   </body>
-  <script src="script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </html>
