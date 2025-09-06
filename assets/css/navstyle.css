@@ -178,10 +178,8 @@ html {
 .off-screen .navbar__links {
   font-size: 20px;
 }
-
 .btn {
   width: 100%;
-  margin: 0 auto;
 }
 
 /* Responsive adjustments for mobile screens */
@@ -202,11 +200,10 @@ html {
   .off-screen .navbar__menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    align-items: flex-start; /* ✅ align left, not center */
+    gap: 0.5rem; /* ✅ smaller gap */
     width: 100%;
   }
-
   .navbar__menu {
     display: none;
   }
@@ -480,27 +477,24 @@ select:focus {
 }
 
 .catalogue {
-  width: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   padding: 0.75rem 1.25rem;
   font-size: 1.2rem;
   background-color: #76b19b;
-
   border: none;
   border-radius: 32px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
   transition: all 0.3s ease;
-}
-a {
-  text-decoration: none;
+  white-space: nowrap; /* ✅ keep text in one line */
+  width: auto; /* ✅ auto-fit text instead of 50% */
+  max-width: 100%; /* ✅ prevents overflow */
 }
 
 .catalogue:hover {
   background-color: #76b19b;
-
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   transform: scale(1.2);
@@ -508,6 +502,9 @@ a {
 
 .catalogue svg {
   flex-shrink: 0;
+}
+a {
+  text-decoration: none;
 }
 
 .custom-wave-section {
@@ -804,6 +801,14 @@ a {
     margin-top: 0rem;
   }
 
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn button {
+    padding: 0.75rem 1.5rem; /* give it actual spacing */
+  }
   .section-wrapper .container,
   .section-wrapper #contactForm {
     width: 100%;
@@ -893,8 +898,9 @@ a {
     font-size: 1rem;
     padding: 0.6rem 1rem;
     justify-content: center;
+    white-space: nowrap; /* ✅ stop wrapping */
+    width: auto; /* ✅ shrink to fit text */
   }
-
   .custom-wave-section {
     padding: 100px 15px; /* Reduced padding for smaller screens */
     clip-path: xywh(
@@ -1235,6 +1241,8 @@ a {
     font-size: 1.1rem;
     padding: 0.75rem 1.25rem;
     justify-content: center;
+    white-space: nowrap; /* ✅ stop wrapping */
+    width: auto; /* ✅ shrink to fit text */
   }
 
   .custom-wave-section {
@@ -1632,4 +1640,10 @@ a {
     font-size: 18px;
     /* text-decoration: underline #76b19b; */
   }
+}
+
+
+.elfsight-app-2d510061-5b92-482f-8f98-d57e9bc05f72 {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
