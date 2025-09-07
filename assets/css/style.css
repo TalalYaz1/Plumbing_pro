@@ -1044,6 +1044,7 @@ html {
     width: 100%;
     height: auto;
     object-fit: cover;
+    padding-top: 45px;
   }
   .catalogue {
     background-color: #202020;
@@ -1353,7 +1354,6 @@ html {
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
-
 
 .elfsight-app-2d510061-5b92-482f-8f98-d57e9bc05f72 {
   max-width: 100% !important;
