@@ -878,6 +878,13 @@ html {
   gap: 16px;
 }
 
+.herebtn {
+  color: #76b19b;
+}
+
+.herebtn:active {
+  color: #76b19b;
+}
 /* OPEN STATE */
 .open {
   border-top: 4px solid #76b19b;
