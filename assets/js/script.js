@@ -13,28 +13,24 @@ mobileMenu.addEventListener("click", () => {
 const reviewData = {
   reviews: [
     {
-      author_name: "Sarah K.",
+      author_name: "Ahmed",
       rating: 5,
-      text: "Plumbers Pro installed a brand new boiler in our home, and the whole process was seamless. The team was punctual, friendly, and left everything spotless. Highly recommend for heating services!",
-      time_description: "3 months ago",
+      text: "Ibrahim recently replaced both our kitchen and shower taps, and we couldn't be happier with the service. He was punctual, professional, and completed the job with great attention to detail. The new taps look fantastic, and we haven't had any issues since the installation. I highly recommend Ibrahim for any plumbing needs!",
     },
     {
-      author_name: "Mark H.",
+      author_name: "Iliyas A.",
       rating: 5,
-      text: "Had a leaking pipe under the kitchen sink and they arrived within the hour. Super efficient and professional. The plumber explained everything clearly and fixed it in no time.",
-      time_description: "1 month ago",
+      text: "Ibrahim did a great job replacing our toilet! Quick, efficient, and no mess. Highly recommend!",
     },
     {
-      author_name: "Lina A.",
+      author_name: "Rawaz A.",
       rating: 5,
-      text: "We used Plumbers Pro for a full bathroom renovation. From tiling to fitting the shower and toilet, everything was done to the highest standard. Can’t thank them enough!",
-      time_description: "2 months ago",
+      text: "Ibrahim recently replaced my basin tap, and I couldn't be happier with the service. From the start, he was professional, arriving on time and fully prepared for the job. He quickly assessed the situation, explained the replacement process clearly, and got to work efficiently. What impressed me most was his attention to detail and the care he took to ensure everything was perfectly installed.",
     },
     {
       author_name: "David R.",
       rating: 5,
-      text: "Excellent emergency service! Our radiator started leaking late at night and they were at our door in under 45 minutes. Really impressed with their quick response and professionalism.",
-      time_description: "5 months ago",
+      text: "Ibrahim is a lifesaver! He quickly cleared a blocked sink in our shisha lounge with no fuss. Top-notch service!",
     },
     {
       author_name: "Fatima Z.",
