@@ -58,7 +58,7 @@ function showReview(index) {
     <div class="review-author">${author_name}</div>
     <div class="review-stars">${stars}</div>
     <div class="review-text">"${text}"</div>
-    <div class="review-time">${time_description}</div>
+  
   `;
 
   if (reviewBoxDesktop) reviewBoxDesktop.innerHTML = reviewHTML;
