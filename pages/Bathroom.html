@@ -269,6 +269,7 @@
         document
           .getElementById("contactForm")
           .addEventListener("submit", function () {
+            alert("FORM SUBMITTED - JS WORKS");
             gtag("event", "contact_form_submit", {
               event_category: "engagement",
               event_label: "Contact form sent",
