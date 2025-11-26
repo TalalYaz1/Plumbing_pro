@@ -1,62 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://plumberspro.uk/</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
 
+  <url>
+    <loc>https://plumberspro.uk/pages/plumbing.html</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 
-<url>
-  <loc>https://plumberspro.uk/</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/pages/plumbing.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/pages/heating.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/pages/drainage.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/pages/Bathroom.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/pages/gas-safety</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/pages/rates.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/pages/gas-safety.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/privscy.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plumberspro.uk/index.html</loc>
-  <lastmod>2025-10-24T12:34:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <url>
+    <loc>https://plumberspro.uk/pages/heating.html</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 
+  <url>
+    <loc>https://plumberspro.uk/pages/drainage.html</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 
+  <url>
+    <loc>https://plumberspro.uk/pages/Bathroom.html</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://plumberspro.uk/pages/gas-safety.html</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://plumberspro.uk/pages/rates.html</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://plumberspro.uk/privscy.html</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.10</priority>
+  </url>
+
+  <!-- Optional: add key images so Google can index them -->
+  <url>
+    <loc>https://plumberspro.uk/</loc>
+    <image:image>
+      <image:loc>https://plumberspro.uk/Photos/Logo.png</image:loc>
+      <image:caption>PlumbersPro logo</image:caption>
+    </image:image>
+  </url>
 </urlset>

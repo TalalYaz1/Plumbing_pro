@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+
+# Sitemap
+Sitemap: https://plumberspro.uk/sitemap.xml
+
+# Crawl-delay is optional; leave commented unless you need it
+# Crawl-delay: 10
