@@ -26,7 +26,7 @@ html {
   top: 0;
   width: 100%;
   z-index: 999;
-  border-bottom: 4px solid #76b19b;
+  border-bottom: 4px solid #2d9bda;
   border-image-slice: 1;
   padding: 0 40px;
 }
@@ -77,7 +77,7 @@ html {
 
 /* Hover effect for nav links */
 .navbar__links:hover {
-  -webkit-text-fill-color: #76b19b;
+  -webkit-text-fill-color: #2d9bda;
   transition: all 0.3s ease-in-out;
   font-size: 16px;
   /* text-decoration: underline #76b19b; */
@@ -102,7 +102,7 @@ html {
 .navbar__toggle .bar {
   height: 5px;
   width: 100%;
-  background-color: #76b19b;
+  background-color: #2d9bda;
   border-radius: 25px;
   position: absolute;
   left: 50%;
@@ -151,7 +151,7 @@ html {
   align-items: flex-start;
   transition: right 0.5s ease-in-out;
   z-index: 998;
-  border-left: 4px solid #76b19b;
+  border-left: 4px solid #2d9bda;
   border-image-slice: 1;
   padding: 2rem;
   overflow-y: auto;
@@ -250,7 +250,7 @@ html {
   /* border-radius: 10px; */
 }
 .hero-left-cell h1 {
-  color: #4b6b6a;
+  color: #2d9bda;
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
@@ -258,7 +258,7 @@ html {
 .hero-left-cell hr {
   width: 50px;
   height: 3px;
-  background: #4b6b6a;
+  background: #2d9bda;
   border: none;
   margin: 20px 0;
 }
@@ -300,13 +300,13 @@ html {
 
 hr {
   max-width: 30%;
-  border: 3px solid #4b6b6a;
+  border: 3px solid #2d9bda;
 }
 
 /* Headings */
 .container h1,
 .container h2 {
-  color: #4b6b6a;
+  color: #2d9bda;
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -393,7 +393,7 @@ select {
 input:focus,
 textarea:focus,
 select:focus {
-  border-color: #4b6b6a;
+  border-color: #2d9bda;
   outline: none;
 }
 
@@ -410,7 +410,7 @@ select:focus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  background-color: #364d4c;
+  background-color: #2d9bda;
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -483,7 +483,7 @@ select:focus {
   gap: 0.5rem;
   padding: 0.75rem 1.25rem;
   font-size: 1.2rem;
-  background-color: #76b19b;
+  background-color: #2d9bda;
   border: none;
   border-radius: 32px;
   cursor: pointer;
@@ -494,7 +494,7 @@ select:focus {
 }
 
 .catalogue:hover {
-  background-color: #76b19b;
+  background-color: #2d9bda;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   transform: scale(1.2);
@@ -508,7 +508,7 @@ a {
 }
 
 .custom-wave-section {
-  background-color: #4b6b6a;
+  background-color: #2d9bda;
   color: white;
   padding: 160px 20px; /* Increased top/bottom padding */
   clip-path: xywh(0% 5% 100% 85% round 15% 0); /* Slightly deeper curve */
@@ -578,7 +578,7 @@ a {
 
 .icons {
   /* background-color: #202020; */
-  fill: #76b19b;
+  fill: #2d9bda;
   transition: fill 0.3s ease, background 0.3s ease;
   border-radius: 50%;
   padding: 20px;
@@ -609,7 +609,7 @@ a {
 }
 
 .brief-left h1 {
-  color: #4b6b6a;
+  color: #2d9bda;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -644,7 +644,7 @@ a {
 
 .quick-links {
   padding: 2rem;
-  background-color: #4b6b6a;
+  background-color: #2d9bda;
   color: #222;
   text-align: center;
 }
@@ -961,7 +961,7 @@ a {
   }
   .brief-left hr {
     width: 50%; /* or any desired size */
-    border: 1px solid #4b6b6a;
+    border: 1px solid #2d9bda;
     margin: 0 auto 1rem auto; /* centers the hr and gives bottom margin */
   }
 
@@ -1304,7 +1304,7 @@ a {
 
   .brief-left hr {
     width: 50%;
-    border: 1px solid #4b6b6a;
+    border: 1px solid #2d9bda;
     margin: 0 auto 1.25rem auto;
   }
 
@@ -1553,7 +1553,7 @@ a {
 
   .brief-left hr {
     width: 30%;
-    border: 1px solid #4b6b6a;
+    border: 1px solid #2d9bda;
     margin: 0 auto 1rem auto;
   }
 
@@ -1635,13 +1635,12 @@ a {
 
   /* Hover effect for nav links */
   .navbar__links:hover {
-    -webkit-text-fill-color: #76b19b;
+    -webkit-text-fill-color: #2d9bda;
     transition: all 0.3s ease-in-out;
     font-size: 18px;
     /* text-decoration: underline #76b19b; */
   }
 }
-
 
 .elfsight-app-2d510061-5b92-482f-8f98-d57e9bc05f72 {
   max-width: 100% !important;
