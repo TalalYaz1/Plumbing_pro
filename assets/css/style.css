@@ -645,6 +645,14 @@ html {
   border: 1px solid #ccc;
 }
 
+.london-map {
+  width: 100%;
+
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .map {
   display: flex;
   align-items: center;
