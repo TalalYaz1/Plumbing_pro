@@ -362,6 +362,15 @@ button:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.289); /* Subtle shadow */
 }
 
+/* Make date & time inputs fully clickable */
+input[type="date"],
+input[type="time"] {
+  pointer-events: auto !important;
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  background: #4b6b6a48;
+}
+
 .form-row {
   display: flex;
   gap: 1rem;
@@ -483,7 +492,7 @@ select:focus {
   gap: 0.5rem;
   padding: 0.75rem 1.25rem;
   font-size: 1.2rem;
-  background-color: #2d9bda;
+  background-color: #265069;
   border: none;
   border-radius: 32px;
   cursor: pointer;
@@ -494,7 +503,7 @@ select:focus {
 }
 
 .catalogue:hover {
-  background-color: #2d9bda;
+  background-color: #265069;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   transform: scale(1.2);

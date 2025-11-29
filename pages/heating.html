@@ -201,7 +201,7 @@
         <input
           type="hidden"
           name="access_key"
-          value="bf4a8c37-6386-4aaf-83bf-c2cab0061986" />
+          value="b383fbf0-7235-4417-8fbf-927fb3781669" />
 
         <div class="form-row">
           <div class="form-field">
@@ -251,19 +251,30 @@
           style="display: none" />
 
         <label for="preferredDate">Your Preferred Date</label>
-        <input type="date" id="preferredDate" name="preferredDate" required />
+        <input
+          type="date"
+          onfocus="this.showPicker()"
+          id="preferredDate"
+          name="preferredDate"
+          required
+          min="" />
 
         <label for="preferredTime">Your Preferred Time</label>
-        <input type="time" id="preferredTime" name="preferredTime" required />
+        <input
+          type="time"
+          onfocus="this.showPicker()"
+          id="preferredTime"
+          name="preferredTime"
+          required />
 
         <label for="notes"
           >Anything else we need to know? Parking? Call etc.</label
         >
         <textarea id="notes" name="notes" rows="3"></textarea>
 
-        <label for="photo" class="custom-file-upload">
+        <!-- <label for="photo" class="custom-file-upload">
           Have a photo of your problem? Please upload below</label
-        >
+        > -->
         <!-- <input type="file" id="photo" name="photo" accept="image/*" /> -->
 
         <button type="submit" style="margin-top: 1rem">Submit</button>
@@ -679,4 +690,5 @@
     </div>
   </body>
   <script src="../assets/js/nav.js"></script>
+  <script src="../assets/js/verify.js"></script>
 </html>
